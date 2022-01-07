@@ -9,6 +9,10 @@ This version loads a picture on top of the Hiro marker
 </head>
 <body>
 	<a-scene>
+		<a-assets>
+    			<audio id="wallaby" src="sounds/wallaby.mp3" preload="auto"></audio>
+  		</a-assets>
+ 		<a-entity sound="src: #wallaby; autoplay: true"  geometry="primitive: plane" material="color: blue" position="-10 0 0"></a-entity>
 		<a-entity text="These normally belong from Australia or new Gunie. Their diet mostly consist of grass as they do not eat any meat These wallabys are very protective of there own young, if oyu go near them thye will attack." position="3.281 1.088 -1.373" rotation="-72.669 1.18 -0.47" scale="7.986 5.208 1.741"></a-entity>
     		<a-image src="wallaby1.jpg" position="2.971 1.518 -4.223" rotation="-72.659 1.18 0" scale="7.516 3.728 1.081" material="" geometry=""></a-image>
 		<audio controls>
