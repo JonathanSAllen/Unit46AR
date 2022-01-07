@@ -9,6 +9,10 @@ This version loads a picture on top of the Hiro marker
 </head>
 <body>
 	<a-scene>
+		<a-assets>
+    			<audio id="hyena" src="sounds/hyena(1).mp3" preload="auto"></audio>
+  		</a-assets>
+ 		<a-entity sound="src: #hyena; autoplay: true"  geometry="primitive: plane" material="color: blue" position="-10 0 0"></a-entity>
 		<a-entity text="value:Hyenas are meat eaters and hunt animals such as  Lions,Tigers and small Animals. Despite their low diversity, hyenas are unique and vital components of most African ecosystems." position="3.281 1.088 -1.373" rotation="-72.669 1.18 -0.47" scale="7.986 5.208 1.741"></a-entity>
     		<a-image src="hyena1.jpg" position="2.971 1.518 -4.223" rotation="-72.659 1.18 0" scale="7.516 3.728 1.081" material="" geometry=""></a-image>
 		<audio controls>
