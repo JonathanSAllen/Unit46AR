@@ -12,10 +12,13 @@ This version loads a picture on top of the Hiro marker
 		<a-assets>
     			<audio id="baboon" src="sounds/baboon1.mp3" preload="auto"></audio>
   		</a-assets>
- 		<a-entity sound="src: #baboon; autoplay: true"  geometry="primitive: plane" material="color: blue" position="-10 0 0"></a-entity>
-		<a-image src="baboon1.jpg" position="2.971 1.588 -4.223" rotation="-72.659 -2.78 0" scale="7.516 3.728 1.081" material="" geometry=""></a-image>
-		<a-entity text="value: Baboons are such crazy animals, as they are teritorial animals , any of animal imcluding there own species will go crazy and go for the attack.There are not meat eaters as they eat plants but if they need to go for an attack they will." position="3.281 0.838 -1.373" rotation="-72.669 0.88 -0.47" scale="7.986 5.338 1.741"></a-entity>
-		<audio controls>
+ 		<a-entity sound="src: sounds/baboon1.mp3; autoplay: true" geometry="primitive: plane" material="color: blue" position="-10 0 0">
+		</a-entity>
+		<a-image src="baboon1.jpg" position="0 0 -2.75" rotation="-90 0 0" scale="4 4 4" material="" geometry="">
+		</a-image>
+		<a-entity text="value: Baboons are such crazy animals, as they are teritorial animals , any of animal imcluding there own species will go crazy and go for the attack.There are not meat eaters as they eat plants but if they need to go for an attack they will." position="" rotation="-90 0 0" scale="4 4 4">
+		</a-entity>
+		<audio controls="">
 			
         <source src="sounds/baboon1.mp3" type="audio/mp3">
         
@@ -23,9 +26,10 @@ This version loads a picture on top of the Hiro marker
 		
 		
     
-		<a-marker-camera type='pattern' url='markers/pattern-baboonmarker.patt'></a-marker-camera>
+		<a-marker-camera type="pattern" url="markers/pattern-baboonmarker.patt" material="" arjs-anchor="" camera=""></a-marker-camera>
 
 		
+	<div class="a-loader-title" style="display: none;">Loading an Image Using A-Frame</div>
 	</a-scene>
 </body>
 </html>
